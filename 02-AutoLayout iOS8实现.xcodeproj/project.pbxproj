@@ -15,6 +15,7 @@
 		37D5FCEF1BAFDF7E00137EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D5FCED1BAFDF7E00137EDC /* LaunchScreen.storyboard */; };
 		37D5FCFA1BAFDF7F00137EDC /* _2_AutoLayout_iOS8__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5FCF91BAFDF7F00137EDC /* _2_AutoLayout_iOS8__Tests.m */; };
 		37D5FD051BAFDF7F00137EDC /* _2_AutoLayout_iOS8__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5FD041BAFDF7F00137EDC /* _2_AutoLayout_iOS8__UITests.m */; };
+		37D5FD141BAFF00B00137EDC /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5FD131BAFF00B00137EDC /* HomeCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		37D5FD001BAFDF7F00137EDC /* 02-AutoLayout iOS8实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-AutoLayout iOS8实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D5FD041BAFDF7F00137EDC /* _2_AutoLayout_iOS8__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_AutoLayout_iOS8__UITests.m; sourceTree = "<group>"; };
 		37D5FD061BAFDF7F00137EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D5FD121BAFF00B00137EDC /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		37D5FD131BAFF00B00137EDC /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				37D5FCED1BAFDF7E00137EDC /* LaunchScreen.storyboard */,
 				37D5FCF01BAFDF7E00137EDC /* Info.plist */,
 				37D5FCDF1BAFDF7E00137EDC /* Supporting Files */,
+				37D5FD121BAFF00B00137EDC /* HomeCell.h */,
+				37D5FD131BAFF00B00137EDC /* HomeCell.m */,
 			);
 			path = "02-AutoLayout iOS8实现";
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				37D5FCE71BAFDF7E00137EDC /* ViewController.m in Sources */,
 				37D5FCE41BAFDF7E00137EDC /* AppDelegate.m in Sources */,
+				37D5FD141BAFF00B00137EDC /* HomeCell.m in Sources */,
 				37D5FCE11BAFDF7E00137EDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
